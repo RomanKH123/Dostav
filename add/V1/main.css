@@ -8,7 +8,7 @@ img{
 }
 @media (max-width: 575px) {
   *{
-    font-size: 8px;
+    font-size: 10px;
   }
   .img_1{
     width: 100px;
