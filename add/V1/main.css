@@ -6,33 +6,7 @@
 img{
 
 }
-@media (max-width: 575px) {
-  *{
-    font-size: 10px;
-  }
-  .img_1{
-    width: 100px;
-  }
-  .img_3{
-    width: 150px;
-  }
-}
-@media (max-width: 450px){
-  .img_1{
-    width: 80px;
-  }
-  .img_3{
-    width: 120px;
-  }
-}
-@media (max-width: 400px){
-  .img_1{
-    width: 70px;
-  }
-  .img_3{
-    width: 90px;
-  }
-}
+
 td{
   width: 30%;
 }
@@ -55,6 +29,8 @@ td{
 table{
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .table {
   
@@ -67,14 +43,15 @@ table{
   align-items: center;
   background-color: rgb(240, 130, 255);
   padding: 10px;
-  height: 80px;
+  height: 90px;
+  font-size: 20px;
 }
 
 .spis_li {
   
   margin-top: 20px;
   display: inline-block;
-  margin-right: 10%;
+  margin-right: 3%;
   background-color: rgb(240, 130, 255);
 }
 .spis_li:last-child {
@@ -161,7 +138,7 @@ table{
 
 .teg_1{
   align-items: center;
-  width: 60%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -192,3 +169,39 @@ table{
 }
 
 
+@media (max-width: 575px) {
+  
+  .spis_ul{
+    font-size: 17px;
+    height: 75px;
+  }
+  .pro{
+    font-size: 18px;
+  }
+  
+  .teg_1{
+    width: 85%;
+  }
+  .img_1{
+    width: 100px;
+  }
+  .img_3{
+    width: 150px;
+  }
+}
+@media (max-width: 450px){
+  .img_1{
+    width: 80px;
+  }
+  .img_3{
+    width: 120px;
+  }
+}
+@media (max-width: 400px){
+  .img_1{
+    width: 70px;
+  }
+  .img_3{
+    width: 90px;
+  }
+}
